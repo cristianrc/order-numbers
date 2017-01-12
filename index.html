@@ -33,28 +33,27 @@
                 <div class="row">
                     <div class="input-field col offset-m3 m4">
                         <input id="number" type="number" class="validate">
-                        <label for="number">Number</label>
+                        <label for="number" data-error="">Number</label>
                     </div>
                     <div class="col s4">
                         <div class="input-field inline">
-                            <a class="waves-effect waves-light btn blue-grey lighten-1"><i class="material-icons right">add</i>Agregar</a>
+                            <a id="btn-add" class="waves-effect waves-light btn blue-grey lighten-1"><i class="material-icons right">add</i>Agregar</a>
                         </div>
                     </div>
                 </div>
             </form>
         </div>
         <div class="row">
-            <div class="card-panel blue-grey lighten-5">
+            <div id="panel-numbers" class="card-panel blue-grey lighten-5">
             </div>
         </div>
         <div class="row">
             <div class="center-align">
-                <a class="waves-effect waves-light btn blue-grey darken-1"><i class="material-icons right">clear</i>Limpiar</a>
-                <a class="waves-effect waves-light btn blue-grey darken-1"><i class="material-icons right">filter_list</i>Ordenar</a>
+                <a id="btn-clear" class="waves-effect waves-light btn blue-grey darken-1"><i class="material-icons right">clear</i>Limpiar</a>
+                <a id="btn-order" class="waves-effect waves-light btn blue-grey darken-1"><i class="material-icons right">filter_list</i>Ordenar</a>
             </div>
         </div>
     </div>
-
 </main>
 <footer>
 
@@ -62,6 +61,7 @@
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-
+<script src="methods.js"></script>
+<script src="events.js"></script>
 </body>
 </html>

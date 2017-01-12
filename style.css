@@ -1,0 +1,11 @@
+span.num {
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #607d8b;
+    border-radius: 2px;
+    min-width: 3rem;
+    padding: 5px 8px;
+    margin-left: 14px;
+    text-align: center;
+}

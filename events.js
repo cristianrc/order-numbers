@@ -1,4 +1,9 @@
-$(document).on('click', '#btn-add', function () {
+$(document).on('ready', function () {
+    $("#number").focus();
+});
+
+$(document).on('submit', '#addForm', function (e) {
+    e.preventDefault();
     addNum();
 });
 
